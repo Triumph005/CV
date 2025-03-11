@@ -1,10 +1,10 @@
 /* CSS Variables for Theming */
 :root {
-  --primary-color: #77aaff;
-  --background-light: #f4f4f4;
-  --text-light: #333;
-  --background-dark: #333;
-  --text-dark: #f4f4f4;
+  --primary-color: #00ff00; /* Green */
+  --background-light: #ffffff; /* White */
+  --text-light: #000000; /* Black */
+  --background-dark: #000000; /* Black */
+  --text-dark: #ffffff; /* White */
   --transition-speed: 0.3s;
 }
 
@@ -63,7 +63,7 @@ body.dark-mode {
 }
 
 #theme-toggle:hover {
-  background-color: #5599ff;
+  background-color: #000000;
 }
 
 /* Sections */
