@@ -19,3 +19,14 @@ if (savedTheme === 'dark') {
 
 // Event Listener
 themeToggle.addEventListener('click', toggleTheme);
+
+// Add CV Download Button
+const cvDownloadButton = document.createElement('button');
+cvDownloadButton.textContent = 'Download CV';
+cvDownloadButton.id = 'cv-download';
+themeToggle.insertAdjacentElement('afterend', cvDownloadButton);
+
+// CV Download Alert
+cvDownloadButton.addEventListener('click', () => {
+  alert('CV downloaded');
+});
